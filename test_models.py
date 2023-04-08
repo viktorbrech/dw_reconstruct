@@ -2,6 +2,8 @@ from models import Regiment, Fighter, GridCell
 import test_utils
 import pytest
 from sqlalchemy.orm.scoping import ScopedSession
+from sqlalchemy.engine import Engine
+from sqlalchemy.orm import Session
 
 @pytest.fixture(scope="module")
 def session():
