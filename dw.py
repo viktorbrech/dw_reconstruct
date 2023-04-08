@@ -10,13 +10,9 @@ Base.metadata.create_all(engine)
 Session = sessionmaker(bind=engine)
 session = Session()
 
-
-# Create the grid by initializing grid cells with unique x and y coordinates
-# Create the grid by initializing grid cells with unique x and y coordinates
+# Create a list of grid cells that do not already exist in the database
 width = 20
 height = 20
-
-# Create a list of grid cells that do not already exist in the database
 new_cells = [
     GridCell(x=i, y=j)
     for i in range(width)
