@@ -1,6 +1,6 @@
-# Battle Simulation Project
+# Hex Grid Movement in Groups
 
-This project demonstrates the use of SQLAlchemy (SQLite) with Python to model a simple game scenario. The project models a battlefield on a 2D grid and simulates fighters belonging to different regiments.
+This project demonstrates the use of SQLAlchemy (SQLite) with Python to model collections of game pieces that move jointly across a 2D hex grid.
 
 ## Requirements
 
